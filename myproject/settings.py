@@ -54,6 +54,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Replace with your frontend URL
+    "https://portfolio-frontend-alpha-henna.vercel.app/"
 ]
 
 ROOT_URLCONF = 'myproject.urls'
